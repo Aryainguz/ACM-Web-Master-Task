@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="index.css">
   <script defer src="script.js"></script>
   <style>
+    html{
+      scroll-behavior: smooth;
+    }
   </style>
 </head>
 
@@ -45,7 +48,11 @@
               <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                 <a href="#about" class="mr-5 hover:text-gray-900">About</a>
                 <a href="#service" class="mr-5 hover:text-gray-900">Services</a>
+<<<<<<< HEAD
+                <a href="#review" class="mr-5 hover:text-gray-900">Reviews</a>
+=======
                 <a href="review" class="mr-5 hover:text-gray-900">Reviews</a>
+>>>>>>> b467116d4e19156eca354dc9980f1202335673f7
                 <a href="#contact" class="mr-5 hover:text-gray-900">Contacts</a>
                 <a href="#contact" class=" hover:text-gray-900" style="position: absolute; left: 1300px;">Get in Touch</a>
 
@@ -116,9 +123,10 @@
   </div>
 
   <div class="flex ml-6" style="display: flex; justify-content: center;">
+    <a href="#more">
     <button class=" bg-white border-0 py-4 px-8 focus:outline-none hover:bg-white-600 rounded-full"
       style="color: #4D5E80; font-weight: bold;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); z-index: 2; position: relative; top: -20px;">Show
-      More</button>
+      More</button></a>
   </div>
 
   <div class="flex ml-6" style="display: flex; justify-content: center;font-size:x-small;" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true" id="about">
@@ -354,7 +362,7 @@
 
 
 
-  <div class="container " style="width: 97vw; display: flex; justify-content: center; flex-wrap: wrap;;">
+  <div class="container " style="width: 97vw; display: flex; justify-content: center; flex-wrap: wrap;" id="more">
     <div class="card mx-4" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
       <div>
         <img src="assets\img2.svg" alt="">
@@ -585,7 +593,7 @@
 
 
 
-  <div class="flex ml-6" style="display: flex; justify-content: center;font-size:x-small;" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
+  <div class="flex ml-6" style="display: flex; justify-content: center;font-size:x-small;" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true" id="gallery">
     <button class="border-0 py-2 px-6 focus:outline-none  rounded-full"
       style="box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); z-index: 2; position: relative; top: 75px; color: #29CC39;background-color:  rgba(21, 129, 32, 0.1); font-weight: 900;">
       INSTAGRAM</button>
@@ -720,20 +728,20 @@
       <div
         style="position: relative;top: -35px; left: 30px; font-weight: 500;font-size:medium;margin-top: 7px; width: 70vw; ">
         <div style="display: flex; justify-content: center; list-style-type: none;">
-          <a class="mr-4 mb-4" href="">
+          <a class="mr-4 mb-4" href="/">
             Home
-          </a><a class="mr-4 mb-4" href="">
+          </a><a class="mr-4 mb-4" href="#gallery">
             Gallery
-          </a><a class="mr-4 mb-4" href="">
+          </a><a class="mr-4 mb-4" href="#service">
             Services
           </a>
         </div>
         <div style="display: flex; justify-content: center; list-style-type: none;">
-          <a class="mr-4 mb-4" href="">
+          <a class="mr-4 mb-4" href="#about">
             About
-          </a><a class="mr-4 mb-4" href="">
+          </a><a class="mr-4 mb-4" href="#more">
             Barbers
-          </a><a class="mr-4 mb-4" href="">
+          </a><a class="mr-4 mb-4" href="#contact">
             Contacts
           </a>
         </div>
